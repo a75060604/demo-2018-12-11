@@ -12,7 +12,7 @@ function init () {
 }
 
 function imageClick () {
-    document.getElementsByClassName('md-dialog')[0].style.display = 'block';
+    document.getElementsByClassName('md-dialog')[0].style.display = 'flex';
 }
 
 function closeDialog (e) {
