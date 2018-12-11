@@ -1,0 +1,185 @@
+@import "_iconfont.css";
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    width: 100%;
+}
+
+.md-container {
+    width: 100%;
+    height: 100%;
+    background-color: #eeeeee;
+}
+
+.md-header {
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+    border-bottom: 1px solid #e3e3e3;
+    box-shadow: 0 1px 3px #e3e3e3;
+    height: 40px;
+    background-color: white;
+}
+
+.md-content {
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    background-color: white;
+    box-sizing: content-box;
+}
+
+.md-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    overflow: hidden;
+    flex: 0 0 50px;
+}
+
+.md-avatar > img {
+    width: 100%;
+    height: 100%;
+}
+
+.md-info-box {
+    padding-left: 10px;
+    flex: 1;
+}
+
+.md-user {
+    position: relative;
+}
+
+.md-user > p {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.md-user > span {
+    color: #bebebe;
+}
+
+.md-user > i {
+    position: absolute;
+    font-style: normal;
+    color: #bebebe;
+    right: 0;
+    top: 0;
+    font-size: 15px;
+    padding: 10px;
+    letter-spacing: 3px;
+    transform: rotate(90deg);
+}
+
+.md-info-text {
+    padding: 10px 0;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.md-info-text > span {
+    color: #00a1d6;
+}
+
+.md-img {
+    width: 100%;
+}
+
+.md-img > span {
+    display: inline-block;
+    width: 120px;
+    height: 150px;
+    border-radius: 5px;
+    background-image: url("../image/w.jpg");
+    background-size: 100%;
+}
+
+.md-dialog {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.md-dialog > img {
+    width: 100%;
+}
+
+.md-dialog-header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 30px;
+    display: flex;
+}
+
+.md-dialog-header > i {
+    font-style: normal;
+    font-size: 20px;
+    padding: 0 10px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+.md-dialog-header > i:first-child {
+    font-size: 15px;
+}
+
+.md-dialog-header > i:last-child {
+    flex: 1;
+    text-align: right;
+}
+
+.md-footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #777;
+}
+
+.md-dialog-user {
+    display: flex;
+    padding: 10px;
+}
+
+.md-dialog-user > img {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+.md-dialog-user > .md-user {
+    padding-left: 10px;
+}
+
+.md-footer .md-info-text {
+    padding: 10px;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.md-statistics {
+    display: flex;
+    padding-bottom: 10px;
+}
+.md-statistics > div {
+    flex: 1;
+    text-align: center;
+    color: white;
+}
+.md-statistics > div > p {
+    margin: 0;
+}
